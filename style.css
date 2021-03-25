@@ -1,0 +1,80 @@
+body {
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(80, 80, 80);
+}
+header{
+    height: 7.5vh;
+    background-color: rgb(180, 40, 50);
+}
+main {
+    display: flex;
+    flex-direction: column;
+    min-height: 87.5vh;
+
+}
+footer {
+    height: 5vh;
+    background-color: rgb(100, 25, 30);
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    color: white;
+    border: none;
+    background-color: rgb(180, 55, 65);
+    border-radius: 5px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+button:hover{
+    background-color: rgb(226, 69, 79);
+}
+button:active{
+    background-color: rgb(180, 55, 65);
+}
+.arena-box{
+    background-color: darkgrey;
+}
+
+@media only screen and (min-width:1500px){
+    body {
+        margin-left: 15vw;
+        margin-right: 15vw;
+
+    }
+}
+
+.appear1 {
+    animation: animate 2s linear forwards;
+}
+.appear2 {
+    animation: animate-long 2s linear forwards;
+}
+
+@keyframes animate {
+        0% {
+            opacity: 0%;
+        }
+        100%{
+            opacity: 100%;
+        }
+}
+@keyframes animate-long {
+        0% {
+            opacity: 0%;
+        }
+        75% {
+            opacity: 0%;
+        }
+        100% {
+            opacity: 100%;
+        }
+}

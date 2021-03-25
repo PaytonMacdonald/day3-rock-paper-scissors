@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <title>Rock-Paper-Scissors</title>
+</head>
+
+
+
+
+<!------------------------------------------------------------------------------------->
+
+<body>
+    <!--Title Bar-->
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <h1 class="text-white text-center">ROCK PAPER SCISSORS</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--Main Game-->
+    <main class="bg-white">
+        <div class="container-fluid">
+
+            <!--Arena-->
+            <div class="row mt-2 mb-1 d-flex justify-content-center">
+                <div class="col-3 bg-light shadow m-5 p-5 text-center" id="arena">
+                    <span class="appear">choose an option</span>
+                </div>
+            </div>
+
+            <!--Flavor Text-->
+            <div class="row mb-4 mt-1">
+                <div class="col text-center ">
+                    <span><strong>WIN OR LOSE | YOU HAVE TO CHOOSE</strong></span>
+                </div>
+            </div>
+            <div class="row my-4">
+
+
+
+
+
+                <!--ROCK-->
+                <div class="col text-center">
+                    <i class="text-secondary fas fa-hand-rock fa-5x py-3"></i>
+                    <br>
+                    <button onClick="play('rock')">ROCK</button>
+                </div>
+
+
+                <!--PAPER-->
+                <div class="col text-center">
+                    <i class="text-secondary fas fa-hand-paper fa-5x py-3"></i>
+                    <br>
+                    <button onClick="play('paper')">PAPER</button>
+                </div>
+
+
+                <!--SCISSORS-->
+                <div class="col text-center">
+                    <i class="text-secondary fas fa-hand-scissors fa-5x py-3"></i>
+                    <br>
+                    <button onClick="play('scissors')">SCISSORS</button>
+                </div>
+
+
+
+
+
+            </div>
+
+        </div>
+    </main>
+
+    <!--Footer-->
+    <footer>
+        <div class="container-fluid">
+
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+<!------------------------------------------------------------------------------------->
+
+
+
+
+</html>
